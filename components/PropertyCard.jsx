@@ -11,7 +11,7 @@ import {
 const PropertyCard = ({ property }) => {
   const getRateDisplay = () => {
     const { rates } = property;
-    console.log(rates);
+
     if (rates.monthly) {
       return ` $${rates.monthly.toString()}/mo`;
     } else if (rates.weekly) {

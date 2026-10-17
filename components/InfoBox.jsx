@@ -12,7 +12,6 @@ const InfoBox = ({
       <a
         href={buttonInfo.Link}
         className={`${buttonInfo.BackgroundColor} text-white rounded-lg px-4 py-2 hover:opacity-90`}
-        {...buttonInfo.text}
       >
         {buttonInfo.text}
       </a>
